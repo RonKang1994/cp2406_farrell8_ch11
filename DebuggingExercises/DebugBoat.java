@@ -25,4 +25,8 @@ public abstract class DebugBoat
    }
    public abstract void setPower();
    public abstract void setPassengers();
+
+   public String getBoatType() {
+      return boatType;
+   }
 }
